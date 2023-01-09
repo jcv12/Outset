@@ -29,10 +29,14 @@
   - [Questions](#questions)
 
   ## Installation
-  ``` npm install npm install inquirer ```
+  ``` npm install ```
+  
+  ``` npm install inquirer ```
 
   ## Usage
-  ``` Clone from the github Node index.js to start application ```
+  ``` Clone from the github ```
+  
+  ``` Node index.js to start application ```
 
   ## License
   ![badge](https://img.shields.io/badge/license-Academic-brightgreen)
