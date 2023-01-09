@@ -15,9 +15,8 @@
   <p align="center"><a href="https://www.buymeacoffee.com/jcv12"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="jcv12" /></a></p><br><br>
     
   ## Description
-  This is a Node.js command line prompt program that uses inquirer to  allow for developers to set up projects quicker.
-  This project was built using these languages and libraries:
-  JavaScript
+  This is a quick Python script that creates a directory and files for my personal use. This repository can be used by anyone and I have plans to update this regulary but for now this will be my personal script.
+
 
   ## Table of Contents
   - [Description](#description)
@@ -28,15 +27,10 @@
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Installation
-  ``` npm install ```
-  
-  ``` npm install inquirer ```
-
   ## Usage
   ``` Clone from the github ```
   
-  ``` Node index.js to start application ```
+  ``` Python3 start.py ```
 
   ## License
   ![badge](https://img.shields.io/badge/license-Academic-brightgreen)
@@ -45,10 +39,6 @@
 
   ## Contributing
   JCV
-
-  ## Tests
-  <img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white"/> </br>
-  The testing platform used for this program was powered by jest and can be shown in the testing folder.
 
   ## Questions
   Contact me by Github<br />
