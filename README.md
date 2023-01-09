@@ -2,7 +2,7 @@
   <h1 align='center'>Outset</h1>
 
   <p align="center">
-    <img src="">
+    <img src="./Outset.png">
   </p>
 
   <p align="center">
