@@ -30,9 +30,14 @@ if user_input == '1':
     
 
 if user_input == '2':
-    print('Script Python')
-    f = open("script.py", "a")
-    f.write("")
-    f.close()
+    print('Web Basic')
+    directory = input("Directory Name: ")
+    path = os.path.join(parent_dir, directory)
+    os.mkdir(path)
+    print("Directory '% s' created" % directory)
+
+    textFilePath = '' + '/Users/john/Desktop/' + directory + '/' + 'script.py'
+    with open(textFilePath, 'w') as f:
+        f.write('')
  
 # print("File location using os.getcwd():", os.getcwd()) # Use this to find the directory you wish to use
