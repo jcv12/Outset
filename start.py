@@ -21,7 +21,7 @@ if user_input == '1':
 
     textFilePath = '' + '/Users/john/Desktop/' + directory + '/' + 'index.html'
     with open(textFilePath, 'w') as f:
-        f.write('<!DOCTYPE html>\n<html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="style.css"><script src="script.js"></script><title></title></head><body></body></html>')
+        f.write(f'<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <link rel="stylesheet" href="style.css">\n    <script src="script.js"></script>\n    <title>{directory}</title>\n</head>\n<body>\n\n</body>\n</html>')
 
     textFilePath = '' + '/Users/john/Desktop/' + directory + '/' + 'style.css'
     with open(textFilePath, 'w') as f:
